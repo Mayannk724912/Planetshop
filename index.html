@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Shop</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        body{
+            background-color: black;
+            opacity: 200%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            justify-content: space-around;
+            height: 80px;
+            align-items: center;
+            border: 3px solid orange;
+            display: flex;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+        ul li a{
+            margin: 0 5px;
+            border: 1px solid orange;
+            padding: 3px 5px;
+            text-transform: uppercase;
+            text-align: justify;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .logo{
+            text-transform: uppercase;
+            border: 2px solid orange;
+            text-decoration: dotted;
+            padding: 7px;
+        }
+        .signup{
+            background-color: aliceblue;
+            color: black;
+        }
+        .signup:hover{
+            background-color: aqua;
+            color: black;
+
+        }
+        main{
+            display: flex;
+            height: 90vh;
+            padding: 40px;
+            margin: 0px 100px;
+            justify-content:space-evenly;
+            align-items: top;
+            flex-wrap: wrap;
+        }
+
+        .leftcontent{
+            flex: 1;
+            padding: 0px 0px 5px;
+            margin: opx 30px 0px;
+        }
+        .midcontent{
+            flex: 2;
+        }
+        .rightcontent{
+            flex: 1;
+        }
+        .mer{
+            padding: 6px 20px 30px;
+        }
+        .btn{
+            color: black;
+            background-color: white;
+            font-size: medium;
+            border: none;
+            padding: 2px 30px 10px;
+            text-decoration: double;
+            border-radius: 10px;
+        }
+        main h2{
+            color: orange;
+            font-size: 30px;
+        }
+        main p{
+            font-weight: 200;
+            line-height: 31px;
+            font-size: 15px;
+            margin: 5px 0px;
+        }
+        .btn:hover{
+            color: orange;
+            background-color: aliceblue;
+            border: 3px solid blue;
+            border-radius: 90px;
+        }
+        .price{
+            padding: 10px 5px;
+            font-size: small;
+        }
+       
+        .midven{
+            padding: 60px 0px 0px;
+        }
+       
+        h2{
+            padding: 250px 0px 0px;
+        }
+       
+        img{
+            max-width: 270px;
+        }
+        p{
+            padding: 40px 0px 0px;
+        }
+        .midmer{
+            padding: 0px 0px 0px;
+        }
+        .midsat{
+            padding: 100px 0px 0px;
+        }
+        .picur{
+            padding: 150px 0px 0px;
+        }
+        .midnep{
+            padding: 70px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.jpeg"width="60px",height="70px"></div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Offer">Offers</a></li>
+                <li><a href="#Buy Now">Buy Now</a></li>
+                <li><a href="#Sell Now">Sell Now</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Signup" class="signup">Sign up</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <div class="leftcontent">
+            <h2 class="mer">Mercury</h2>
+            <h2 class="ven"> Venus</h2>
+            <h2 class="ear">Earth</h2>
+            <h2 class="mars">Mars</h2>
+            <h2>Jupiter</h2>
+            <h2>Saturn</h2>
+            <h2>Uranus</h2>
+            <h2>Neptune</h2>
+            <h2>Pluto</h2>
+            
+        </div>
+        <div class="midcontent">
+            <p class="midmer">Mercury is the first planet from the Sun and the smallest in the Solar System.
+                 In English, it is named after the ancient Roman god Mercurius, god of commerce and communication, 
+                 and the messenger of the gods. Mercury is classified as a terrestrial planet, with roughly the same 
+                 surface gravity as Mars.</p>
+                 <h3 class="price">Price=200$</h3>
+                 <button class="btn">Buy Now </button>
+
+                 <p>Venus is the second plane
+                    t from the Sun. It is a terrestrial planet and is the closest in mass and size to its orbital neighbour Earth. Venus is n
+                    otable for having the densest atmosphere of the terrestrial planets, composed mostly of carbon dioxide with a thick, global sulfuric acid cloud cover.
+                     At the surface it has a mean temperature of 737 K (464 °C; 867 °F) and a pressure of 92 times that of Earth's at sea level. </p>
+                     <h3 class="price">Price=3000$</h3>
+                     <button class="btn">Buy Now </button>
+                     <p>Earth is the third planet from the Sun and the only astronomical 
+                        object known to harbor life. This is enabled by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is co
+                        ntained in its global ocean, covering 70.8% of Earth's crust. The remaining 29.2% of Earth's 
+                        crust is land, most of which is located in the form of continental 
+                        landmasses within Earth's land hemisphere. </p>
+                        <h3 class="price">Price=10000$</h3>
+                        <button class="btn">Buy Now </button>
+                        <p>Mars is the fourth planet from the Sun. The su
+                            rface of Mars is orange-red because it is covered in iron(III) oxide dust,
+                             giving it the nickname "the Red Planet".[21][22] Mars is among the brightest objects in Earth's sky, and its high-contrast albedo features have made it a common subject for telescope viewing. It is classified as a terrestrial planet and is the second 
+                            smallest of the Solar System's planets with a diameter of 6,779 km (4,212 mi). </p>
+                            <h3 class="price">Price=10000$</h3>
+                            <button class="btn">Buy Now </button>
+                            <p>Jupiter is the fifth planet from the Sun and the large
+                                st in the Solar System. A gas giant, Jupiter's mass is more than two and a half times that of all the other planets in the Solar System combined and slightly less than one one-thousandth the mass of the Sun. Jupiter orbits the Sun a
+                                t a distance of 5.20 AU (778.5 Gm) with an orbital period of 11.86 years.</p>
+                                <h3 class="price">Price=10000$</h3>
+                                <button class="btn">Buy Now </button>
+                                <p class="midsat">Saturn is the sixth planet from the 
+                                    Sun and the second-largest in th
+                                    e Solar System, after Jupiter. It is a gas giant with an average radius 
+                                    of about nine-and-a-half times that of Earth.[26][27] It has only one-eighth the 
+                                    average density of Earth, but is over 95 times more massive.[28][29][30] Even though
+                                     Saturn is nearly the size of Jupiter, Saturn has less than one-third of Jupiter's mass.</p>
+                                     <h3 class="price">Price=10000$</h3>
+                                <button class="btn">Buy Now </button>
+                                <p>Uranus is the seventh planet from the Sun. It is a gaseous cyan-c
+                                    oloured ice giant. Most of the planet is made of water, ammonia, and methane in a
+                                     supercritical phase of matter, which astronomy calls "ice" or volatiles. The planet's atmosphere
+                                      has a complex layered cloud structure and has the lowest minimu
+                                    m temperature (49 K (−224 °C; −371 °F)) of all the Solar System's planets.</p>
+                                    <h3 class="price">Price=10000$</h3>
+                                <button class="btn">Buy Now </button>
+                                <p class="midnep">Neptune is the eighth and farthest known planet from the Sun. It i
+                                    s the fourth-largest planet in the Solar System by diameter, the third-most-massive planet,
+                                     and the densest giant planet. It is 17 times the mass of Earth and slightly 
+                                    more massive, but denser and smaller, than fellow ice giant Uranus.</p>
+                                    <h3 class="price">Price=10000$</h3>
+                                <button class="btn">Buy Now </button>
+                                <p>Pluto (minor-planet designation: 134340 Pluto) is a d
+                                    warf planet in the Kuiper belt, a ring of bodies beyond the orbit of 
+                                    Neptune. It is the ninth-largest and tenth-most-massive known object to directly 
+                                    orbit the Sun. It is the largest known trans-Neptunian object by volume, by a small margin, 
+                                    but is less massive than Eris.</p>
+                                    <h3 class="price">Price=10000$</h3>
+                                    <button class="btn">Buy Now </button>
+        </div>
+        <div class="rightcontent">
+            <img class="mer"src="mercury.jpeg" alt="">
+            <img src="Venus.jpg" alt="">
+            <img src="Earth.jpg" alt="">
+            <img src="mars.png" alt="">
+            <img src="jupiter.jpg" alt="">
+            <img src="saturn.jpg" alt="">
+            <img class="picur" src="uranus.png" alt="">
+            <img  src="neptune.png" alt="">
+            <img  src="pluto.png" alt="">
+        </div>
+    </main>
+
+</body>
+</html>
